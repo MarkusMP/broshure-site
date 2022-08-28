@@ -6,7 +6,7 @@ import { getClient } from "../lib/sanity.server";
 const contact = ({ footer, header, contact }) => {
   return (
     <Layout title="Leasyse | Contact Page" header={header} footer={footer}>
-      <section className="container min-h-screen mx-auto">
+      <section className="container mx-auto">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2 className="mb-4 text-4xl tracking-tight font-bold text-center">
             {contact.title}

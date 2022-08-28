@@ -17,7 +17,7 @@ const components = {
 const contact = ({ footer, header, policy }) => {
   return (
     <Layout title="Manage | Landing Page" header={header} footer={footer}>
-      <section className="container mx-auto max-w-2xl py-20">
+      <section className="container mx-auto max-w-2xl py-10 px-4">
         <h1 className="mb-4 text-4xl tracking-tight text-center font-bold">
           Privacy & Policy
         </h1>

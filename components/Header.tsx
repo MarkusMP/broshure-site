@@ -5,7 +5,7 @@ const Header = ({ data }) => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="lg:absolute fixed bg-white lg:bg-transparent w-full top-0 flex  items-center justify-between px-2 py-3 z-10">
+    <nav className="bg-white lg:bg-transparent w-full top-0 flex  items-center justify-between px-2 py-3 z-10">
       <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start items-center">
           <Link href="/">
